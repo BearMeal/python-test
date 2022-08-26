@@ -27,5 +27,6 @@ while True:
             break
             
 plt.plot(a,'.')
-plt.xlabel('횟수')
+plt.xlabel('account')
+plt.ylabel('Number')
 plt.show()
