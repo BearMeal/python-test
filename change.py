@@ -3,7 +3,6 @@ print('거스름돈을 입력하시오 :',end=" ")
 n = int(input())
 
 print(f'{n}원이 입력되었습니다.')
-count=0
 
 if str(n)[-1] != '0':
     print('셀 수 없는 단위입니다.')
@@ -18,4 +17,4 @@ f= d%50
 g= f//10
 
 
-print(f'최소동전 갯수는{count+a+c+e+g}개 입니다.')
+print(f'최소동전 갯수는{a+c+e+g}개 입니다.')
