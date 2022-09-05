@@ -24,9 +24,10 @@ while True:
         print(x)
         a.append(x)
         if x==1:
+            print('콜라츠의 추측이 맞습니다.')
             break
             
-plt.plot(a,'.')
+plt.plot(a,'-')
 plt.xlabel('account')
 plt.ylabel('Number')
 plt.show()
